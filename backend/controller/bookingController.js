@@ -1,4 +1,4 @@
-import { Booking } from '../model/BookingsSchema.js';
+import { Booking } from '../model/bookingsSchema.js';
 
 
   
