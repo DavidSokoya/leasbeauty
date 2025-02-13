@@ -4,7 +4,7 @@ import { Booking } from '../model/BookingsSchema.js';
   
  const  getBookings =  async (req, res) => {
     try {
-      const bookings = await Booking.find().sort({ date: 1 });
+      const bookings = await Booking.find().sort({ _id: -1 });
       res.json(bookings);
     } catch (error) {
       console.error('Error fetching bookings:', error);
