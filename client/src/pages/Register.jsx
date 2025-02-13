@@ -17,7 +17,7 @@ function Register() {
     setLoading(true);
     setError("");
     try {
-      await axios.post("http://localhost:5000/api/auth/register", formData);
+      await axios.post("https://leasbeauty.onrender.com/api/auth/register", formData);
       alert("Registration successful!");
       navigate("/login");
     } catch (error) {

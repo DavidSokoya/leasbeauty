@@ -21,7 +21,7 @@ const Admin = () => {
     const fetchBookings = async () => {
       try {
         setLoading(true); // ✅ Start loading
-        const res = await axios.get("http://localhost:5000/api/bookings", {
+        const res = await axios.get("https://leasbeauty.onrender.com/api/bookings", {
           withCredentials: true,
         });
 

@@ -25,7 +25,7 @@ const Booking = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5000/api/bookings', {
+    const response = await fetch('https://leasbeauty.onrender.com/api/bookings', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
