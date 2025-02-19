@@ -18,7 +18,7 @@ Leas Beauty is a web application that allows customers to easily book appointmen
 - Node.js  
 - Express.js  
 - MongoDB  
-- Bootstrap  
+- TailwindCSS
 
 ### Development Process  
 Leas Beauty was built using the **MERN stack** (MongoDB, Express.js, React, Node.js) to ensure a responsive, fast, and scalable application. The backend handles user authentication, appointment scheduling, and database management, while the frontend provides a clean, intuitive interface for seamless user interaction.  
