@@ -3,7 +3,7 @@
 
 Leas Beauty is a Full-stack web application that allows customers to easily book appointments with hairstylists and beauty professionals. The app streamlines the reservation process by enabling users to browse available time slots, select services, and manage bookings with ease.
 
-**Link to project:** [Leas Beauty Live Demo](https://github.com/DavidSokoya/leasbeauty)
+**Link to project:** [Leas Beauty Live Demo](https://github.com/DavidSokoya/leasbeauty/client/src/img/lea.gif)
 
 \
 *Alt tag: Leas Beauty appointment booking platform homepage*
@@ -75,20 +75,16 @@ npm install
 npm start
 ```
 
-The app should now be running at `http://localhost:3000`. The backend will run on `http://localhost:5000`.
-
+The app should now be running at `http://localhost:5173`. The backend will run on `http://localhost:5000`.
+Create a user with email and password and change the role to "ADMIN" from the database
 ---
 ### 4. Create an account
 
-**Create a user with email and password and change the role to "ADMIN" from the database** 
 
 
-## Optimizations (Planned)
 
-- **Performance Improvements:** Refactor API calls to minimize load times and improve responsiveness.
-- **Database Optimization:** Implement indexing on MongoDB collections for faster query execution.
-- **UI Enhancements:** Introduce image lazy loading and compression for faster rendering.
-- **Deployment Optimization:** Implement CI/CD pipelines for streamlined deployment and updates.
+## Optimizations 
+I plan to improve Leas Beauty by refactoring API calls for faster load times and responsiveness. Implementing MongoDB indexing will speed up database queries. I’ll enhance the UI with image lazy loading and compression for quicker rendering. Lastly, CI/CD pipelines will streamline deployment and updates for smoother releases.
 
 ---
 
@@ -106,7 +102,7 @@ This project reinforced my passion for building user-centric applications and sh
 
 ---
 
-## Examples of Other Projects
+## More Projects
 
 - **Digital Amazonite:** [GitHub Repository](https://github.com/davidsokoya/amazonite)
 - **Enikin Homes:** [GitHub Repository](https://github.com/davidsokoya/enikinestate)
